@@ -18,46 +18,41 @@ html, body {
 .header {
   background: rgba(0,0,0,.8);
   padding: 0;
-  height: auto;
+  width: auto;
+  height: 75px;
 }
 
 .header .logo {
-  width: 100px;
-  height: auto;
+  width: 75px;
   display: inline-block;
-  align-content: center;
+  margin-left: 100px;
 }
 
 .header ul {
-  width: 800px;
+  width: auto;
   margin: 0;
-  padding: 5px 0;
+  padding: 15px 0 0 10px;
 }
 
 .header ul li{
   display: inline-block;
   text-align: center;
-  margin: 0 80px;
+  margin: 0;
+  padding: 0 10px;
 }
 
 .header a {
   display: inline-block;
-  margin: 0;
-  padding: 0;
-  color: #f08080;
+  color: #fbb03f;
   font-size: 15px;
 }
 
 .header li a:hover {
   background: none;
   text-decoration: underline;
-  color: gold;
-  font-weight: bold;
+  color: #f08080;
 }
 
-.header li a:active {
-  background-color: black;
-}
 
 .header li a:visited {
   background: none;
@@ -66,7 +61,6 @@ html, body {
 .header li a:focus {
   background: none;
 }
-
 /* JUMBOTRON */
 .jumbotron {
   padding-top: 0;
