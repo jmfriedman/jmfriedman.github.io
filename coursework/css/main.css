@@ -1,4 +1,5 @@
 html, body {
+  width: auto;
   margin: 0;
   padding: 0;
   color: #999999;
@@ -19,26 +20,26 @@ html, body {
   background: rgba(0,0,0,.8);
   padding: 0;
   width: auto;
-  height: 75px;
+  height: 65px;
 }
 
 .header .logo {
-  width: 75px;
+  width: 65px;
   display: inline-block;
-  margin-left: 100px;
+  margin-left: 25px;
 }
 
 .header ul {
   width: auto;
   margin: 0;
-  padding: 15px 0 0 10px;
+  padding: 10px 0 0 10px;
 }
 
 .header ul li{
   display: inline-block;
   text-align: center;
   margin: 0;
-  padding: 0 10px;
+  padding: 0 5px;
 }
 
 .header a {
