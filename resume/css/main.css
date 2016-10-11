@@ -3,7 +3,7 @@ html, body {
   padding: 0;
   color: #999999;
   font-family: Segoe UI;
-  background: url(../../img/citybg5.jpg) no-repeat center center;
+  background: url(../../img/citybg5.jpg) no-repeat fixed center;
   background-size: cover;
 }
 
