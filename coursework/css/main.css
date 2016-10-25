@@ -7,8 +7,6 @@ html, body {
   background: url(../../img/citybg5.jpg) no-repeat fixed center;
   background-position: absolute;
   background-size: 1920px 100%;
-  /** background: url(../../img/citybg5.jpg) no-repeat center;
-  background-size: cover; **/
 }
 
 .container {
