@@ -5,7 +5,10 @@ html, body {
   color: #999999;
   font-family: Segoe UI;
   background: url(../../img/citybg5.jpg) no-repeat fixed center;
-  background-size: cover;
+  background-position: absolute;
+  background-size: 1920px 100%;
+  /** background: url(../../img/citybg5.jpg) no-repeat center;
+  background-size: cover; **/
 }
 
 .container {
@@ -66,9 +69,9 @@ html, body {
 /* JUMBOTRON */
 .jumbotron {
   padding-top: 0;
-  background-color: rgba(0,0,0,.6);
+  background-color: rgba(0,0,0,.75);
   width: auto;
-  height: 150px;
+  height: 175px;
   text-align: center;
 }
 
@@ -81,7 +84,7 @@ html, body {
 .jumbotron p {
   text-align: center;
   font-size: 20px;
-  color: gold;
+  color: #fbb03f;
 }
 
 .jumbotron a{
