@@ -55,7 +55,6 @@ html, body {
   color: #f08080;
 }
 
-
 .header li a:visited {
   background: none;
 }
@@ -140,42 +139,3 @@ html, body {
   clear: all;
   width: 100px;
 }
-
-
-
-/* .header .row {
-  background-image: url(https://hd.unsplash.com/photo-1445630945852-d2fe3e22edf9);
-  background-size: cover;
-  background-color: #666;
-  padding: 10px 0;
-}
-
-.header .nav-pills {
-  padding: 20px 0;
-}
-.header .nav-pills a{
-  color: salmon;
-  font-family: Segoe UI;
-  border-radius: 2px;
-}
-
-.header .nav-pills li.active a{
-  background-color: salmon;
-  color: black;
-}
-
-.header .nav-pills li a:hover {
-  background-color: white;
-  color: salmon;
-  border: 0.5px solid white;
-}
-
-.header img {
-  padding: auto;
-  margin: auto;
-  width: 500px;
-  height: 200px;
-  display: block;
-  height: 104px;
-  width: 158px;
-} */
