@@ -10,93 +10,288 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet" />
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
 
   <body>
-    <div class="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-1">
-            <img class="logo" src="./img/uxlogoblack.png" />
-          </div>
-          <div class="col-sm-10">
-            <ul class="nav">
-              <li>
-                <a class="active" href="./index.html"> Home </a>
-              </li>
-              <li>
-                <a href="./resume/index.html"> Resume </a>
-              </li>
-              <li>
-                <a href="./coursework/index.html"> Course Work </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+
+    <div class="containter">
+      <div id="header">
+        <ul class="nav">
+          <li> <a href="#intro"> Introduction </a> </li>
+          <li> <a href="#work"> Course Work </a> </li>
+          <li> <a href="#postgrad"> Post Grad </a> </li>
+          <li> <a href="#contact"> Contact Info </a> </li>
+        </ul>
+      </div>
+      <div class="slider">
+        <span id="sliderbtn" class="glyphicon glyphicon-menu-hamburger"></span>
       </div>
     </div>
 
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Jmfriedman UX Design</h1>
-        <!-- <iframe src="https://docs.google.com/document/d/1S8BAcmPjWKLK45iVZx64xBFGdsVxE56tXN2wImDg2Yc/pub?embedded=true" width="500px" height="600px" ></iframe> -->
+    <div class="container">
+      <div id="intro" class="align_m">
+        <h1>Hello and Welcome</h1>
         <p>
-          I'm a recent graduate from NJIT with a B.S. in Human Computer Interaction.
-          Currently seeking employment as a Front End or Website developer with a concentration in User Experience/Interface Design.
-      </div>
-    </div>
-
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <h3>Resume</h3>
-            <a href="./resume/index.html"><img src="./img/coursework.jpg" width="400px" height="200px"  /></a>
-            <p>
-              Full resume including a link to download docx file of my resume.
-            </p>
-          </div>
-          <div class="col-sm-6">
-            <h3>Course Work</h3>
-            <a href="./coursework/index.html"><img src="./img/coursework2.jpg" width="400px" height="200px" /></a>
-            <p>
-              A comprehensive breakdown of all relevant coursework completed while attending NJIT.
-            </p>
-          </div>
-          <!-- <div class="col-sm-4">
-            <h3>Contact Info</h3>
-            <a href="#"><img src="http://placehold.it/350x150" /></a>
-            <p>
-              Page including all ways to get intouch with me.
-            </p> -->
-          </div>
+          My name is Jared Friedman.<br /> I'm a recent graduate from NJIT with a B.S. in <strong>Human Computer Interaction</strong>
+          currently seeking employment as a <strong>Web Designer</strong>.
+        </p>
+        <div>
+          <br />
+          <a class="button" href="#work">View Coursework</a>
         </div>
       </div>
     </div>
 
-    <div class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-1 pull-left">
-            <h4>jmfriedman17@gmail.com</h4>
+    <div class="container">
+      <div id="work" class="align_m">
+        <h2>Course Work</h2>
+
+        <div class="row" id="tabs">
+          <div class="col-sm-2">
+
           </div>
-          <div class="col-sm-1 pull-right">
-            <h4>&copy; 2016</h4>
+          <div class="col-sm-4">
+            <div class="ptab">
+              <h3>Project Courses</h3>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="nptab">
+              <h3>Non-Project Courses</h3>
+            </div>
           </div>
         </div>
+
+        <div class="p_courses">
+            <div class="course">
+              <div class="title">
+                <h5>Senior Project - Real Estate Valuation <span class="glyphicon glyphicon-triangle-bottom"></span></h5>
+              </div>
+            </div>
+            <div class="description">
+              <p>
+                Group created tool for finding similar properties to given address and assess level of comparability.
+                Measured characteristics of similarity and to which degree such similarities weighed on end similarity score.
+                <a target="_blank" href="https://docs.google.com/document/d/1JaeOvrQ6ak79FqhxvsN_YXtaA4-HdztExUgz0mvkvto/pub?embedded=true">Application Demonstration</a>
+              </p>
+            </div>
+
+            <div class="course">
+              <div class="title">
+                <h5>Mobile Application Design - Tipping App <span class="glyphicon glyphicon-triangle-bottom"></span> </h5>
+              </div>
+            </div>
+            <div class="description">
+              <p>
+                Application targeted for travelers that would produce tipping standards based on user’s location (using geo location) and which public service they were receiving.
+                <a target="_blank" href="https://web.njit.edu/~jbk7/Tip/index.html">Just a Tip Web App</a>
+              </p>
+            </div>
+
+            <div class="course">
+              <div class="title">
+                <h5>Measuring the User Experience - Tell Us Who App <span class="glyphicon glyphicon-triangle-bottom"></span> </h5>
+              </div>
+            </div>
+            <div class="description">
+              <p>
+                Social Matching application used to give students hands-on, real-world experience working on multiple iterations and software development lifecycle.
+                Worked as team to generate unique solutions to existing problems as well as handling newly introduced problems generated between each iteration of the app.
+                <a target="_blank" href="http://l5qrmx.axshare.com/#p=activities">Sample Itteration of Social Network Map</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="np_courses">
+            <div class="course">
+              <div class="title">
+                <h5>Designing the User Experience <span class="glyphicon glyphicon-triangle-bottom"></span> </h5>
+              </div>
+            </div>
+            <div class="description">
+              <p>
+                This course covers the design and evaluation of the human-computer interface in interactive computer systems. Students are expected to design interface mockups and evaluate them.
+              </p>
+            </div>
+
+            <div class="course">
+              <div class="title">
+                <h5>Evaluating the User Experience <span class="glyphicon glyphicon-triangle-bottom"></span> </h5>
+              </div>
+            </div>
+            <div class="description">
+              <p>
+                Methods for identifying usability problems and for testing the relative merits of alternative designs for interactive systems.
+                Students practice five different methods: semi-structured interviews, protocol analysis, cognitive walkthroughs, user surveys, and controlled experiments
+              </p>
+            </div>
+
+            <div class="course">
+              <div class="title">
+                <h5>Web Mining and Information Retrieval <span class="glyphicon glyphicon-triangle-bottom"></span> </h5>
+              </div>
+            </div>
+            <div class="description">
+              <p>
+                This course introduces the design, implementation and evaluation of search engines and web mining applications.
+              </p>
+            </div>
+
+            <div class="course">
+              <div class="title">
+                <h5>Human Factors + Ergonomics <span class="glyphicon glyphicon-triangle-bottom"></span> </h5>
+              </div>
+            </div>
+            <div class="description">
+              <p>
+                Through lectures and "hands-on" experiments, this course will challenge the student to explore objects and environments as sensory and psychological experiences
+                that effect human comfort, efficiency, function and emotion
+              </p>
+            </div>
+
+            <div class="course">
+              <div class="title">
+                <h5>Database Design Management and Applications <span class="glyphicon glyphicon-triangle-bottom"></span> </h5>
+              </div>
+            </div>
+            <div class="description">
+              <p>
+                This course gives students extensive, pragmatic experience in designing, building, querying, updating, maintaining and managing relational databases,
+                using the Structured Query Language (SQL)
+              </p>
+            </div>
+
+            <div class="course">
+              <div class="title">
+                <h5>Requirements Analysis and Systems Design <span class="glyphicon glyphicon-triangle-bottom"></span> </h5>
+              </div>
+            </div>
+            <div class="description">
+              <p>
+                A study of the information systems development life-cycle, from the initial stages of information requirements analysis and
+                determination to the ultimate activities involving systems design. Theory, methodologies and strategies for systems design, including design of user-interfaces, particularly menu-driven and
+                keyword dialogue strategies, and issues in the proper design of computer output.
+              </p>
+            </div>
+
+            <div class="course">
+              <div class="title">
+                <h5>Social Networking: Application and Interface Design <span class="glyphicon glyphicon-triangle-bottom"></span> </h5>
+              </div>
+            </div>
+            <div class="description">
+              <p>
+                In this intensely hands-on course, you will analyze existing social networking sites in terms of usage and
+                security implications, and identify design considerations for new application use.
+              </p>
+            </div>
+          </div>
       </div>
     </div>
+
+    <div class="container">
+      <div id="postgrad" class="align_m">
+        <h2>Post Graduate Work</h2>
+        <p>
+          Since graduating from NJIT I have continued my education using CodeAcademy.<br />
+          The courses I have taken are:
+        </p>
+
+            <div class="course">
+              <div class="title">
+                <h5>HTML + CSS <span class="glyphicon glyphicon-triangle-bottom"></span> </h5>
+              </div>
+            </div>
+            <div class="description">
+              <p>
+                Refreshed knowledge of HTML + CSS basics and common practices.
+              </p>
+            </div>
+
+            <div class="course">
+              <div class="title">
+                <h5>JavaScript <span class="glyphicon glyphicon-triangle-bottom"></span> </h5>
+              </div>
+            </div>
+            <div class="description">
+              <p>
+                Learned fundamental programming concepts and how to implement them
+              </p>
+            </div>
+
+            <div class="course">
+              <div class="title">
+                <h5>JQuery <span class="glyphicon glyphicon-triangle-bottom"></span> </h5>
+              </div>
+            </div>
+            <div class="description">
+              <p>
+                Learned to implement interactivity into website while getting more familiar with JavaScript.
+              </p>
+            </div>
+
+            <div class="course">
+              <div class="title">
+                <h5>Making and Deploying a website<span class="glyphicon glyphicon-triangle-bottom"></span> </h5>
+              </div>
+            </div>
+            <div class="description">
+              <p>
+                Utilized HTML + CSS along with Bootstrap inorder to structure a basic website.<br />
+                Learned to launch and host a website using GitHub and GitHub Pages.
+              </p>
+            </div>
+
+            <p>
+              The following are the two websites, with context, I had made prior to the one you're currently viewing.<br /> Click on the image to be taken to the websites URL.
+            </p>
+        <div class="row">
+          <div class="col-xs-6">
+            <p>
+              Below is the website I made for my Intro to Web Design class, the extent of my web development at the time of graduating from NJIT.
+              It implements basic HTML + CSS along with Bootstrap.
+            </p>
+          </div>
+          <div class="col-xs-6">
+            <p>
+              Below is the first website I made post-graduation to be used as my website portfolio. It implements HTML + CSS with Bootstrap.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-6">
+            <a target="_blank" href="https://web.njit.edu/~jf222/JAshoesHome/"><img src="./img/JAShoes/1.png" /></a>
+          </div>
+          <div class="col-xs-6">
+            <a target="_blank" href="http://jmfriedmanux.com/old"><img src="./img/Oldsite/1.png" /></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="contact" class="align_m">
+        <h2>Contact Info</h2>
+        <p>
+          If you'd like to contact me or have any questions, it's best to reach me by email at:
+        </p>
+        <h3>jmfriedman17@gmail.com</h3>
+        <p>
+          I can also be reached through my linkedin profile if you prefer.
+        </p>
+        <a target="_blank" href="https://www.linkedin.com/in/jmfriedman/"><img src="./img/linkedinbanner.png"/></a>
+      </div>
+    </div>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
   </body>
 
 </html>
